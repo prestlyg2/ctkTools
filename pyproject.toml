@@ -12,3 +12,6 @@ authors = [
 readme = "README.md"
 license = { text = "MIT" }
 dependencies = ["customtkinter", "pillow"]
+
+[tool.setuptools.package-data]
+ctktools = ["FileSearchImages/**/*"]   

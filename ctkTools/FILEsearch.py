@@ -18,7 +18,7 @@ class FILEsearch:
         self.filepath = startingLocation #the directory that the window will open up in
         self.colors = colors #the colors for the window
 
-        self.images = ctkTools.loadImages("/Users/prestlyg12/VScode/Python/ctkTools/ctkTools/FileSearchImages", 64, True) #load the images that will be used for the files and folders inside of the directories
+        self.images = ctkTools.loadImages("*/FileSearchImages", 64, True) #load the images that will be used for the files and folders inside of the directories
         self.resize_buttons() #set up the back button image
 
         #create a variable to hold the name of the file being saved

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ctkTools"
+version = "0.1.5"
+description = "CustomTkinter enhancement tools"
+authors = [
+    { name="Preston Garrett", email="prestlyg12@proton.me" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = ["customtkinter", "pillow"]

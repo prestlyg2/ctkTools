@@ -1,3 +1,13 @@
+Metadata-Version: 2.4
+Name: ctkTools
+Version: 0.1.5
+Summary: CustomTkinter enhancement tools
+Author-email: Preston Garrett <prestlyg12@proton.me>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: customtkinter
+Requires-Dist: pillow
+
 color_schemes_tester(parent, color_schemes: list)
     #parent: 
         the parent object of the app (the main window)

@@ -1,0 +1,1 @@
+from debug_test import color_schemes_tester
